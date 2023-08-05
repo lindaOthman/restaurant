@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    background-color: rgb(115, 180, 180);
+}
+body{
+    position: relative;
+    height: 1000px;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+
+}
+
+section{
+    padding: 30px 0;
+}
+/* **************************************************************** */
+
+/* start navbar */
+nav{
+    font-family: 'Alegreya', serif;
+    padding: 7px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* background-color: aliceblue; */
+    z-index: 10001;
+    opacity: .4;
+}
+
+nav .logo .icon{
+    height: 54px;
+}
+
+nav .list-item{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+}
+
+nav .list-item .items{
+    padding: 10px 15.5px;
+    
+}
+
+/* end navbar */
+/* ******************************** */
+/* start header */
+
+.content{
+background-color: tomato;
+display: flex;
+justify-content: center;
+align-items: center;
+background-position: center;
+padding-top: 10rem;
+background-image: url(../imges/home/shutterstock_277750193.jpg);
+height: 100vh;
+background-size: cover;
+}
+
+.home{
+    margin: 50px;
+    background-color: burlywood;
+
+}
+/* end header */
